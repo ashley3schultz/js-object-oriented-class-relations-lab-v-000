@@ -1,3 +1,4 @@
+let store = {drivers: [], passengers: []}
 let driverId = 0
 
 class Driver {
@@ -5,5 +6,7 @@ class Driver {
     this.name = name
     this.id = ++driverId
   }
+
+  
 
 }
