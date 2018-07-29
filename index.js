@@ -1,7 +1,7 @@
 class Driver {
   constructor(name){
-    const name = name
-    const id = ++driverId
+    this.name = name
+    this.id = ++driverId
   }
-    
+
 }
